@@ -13,14 +13,37 @@
 
 I work in **Data & AI** at **VinSmart Future**, the technology company of Vingroup, while studying Information Technology as a third-year student at the **University of Engineering and Technology – VNU (VNU-UET)**. My focus spans **Data Analytics**, **Data Engineering**, and applied **AI**.
 
-I enjoy the whole journey of data: designing reliable **ETL/ELT pipelines**, modeling clean **data warehouses**, and turning raw numbers into **dashboards and insights** that drive business decisions.
+I think about data **end to end**: from the moment a record leaves its source system to the moment it shows up as a number someone makes a decision on. Day to day, that means getting hands-on across the layers of a **modern data platform**: ingesting data with **Apache NiFi**, modeling it into clean, analytics-ready structures, querying across sources with **Trino**, serving fast analytics with **StarRocks**, and turning the result into **dashboards, insights, and AI-powered products**.
 
 - 💼 **Data & AI** @ **VinSmart Future** (Vingroup)
 - 🎓 B.Sc. Information Technology, VNU-UET (2023 – present) · GPA **3.41 / 4.0**
 - 🏅 **Microsoft Certified: Data Analyst Associate**
 - 🥉 **Bronze Medal** – Kaggle Competition (2025)
-- 🌱 Currently deepening my skills in data modeling, pipeline orchestration, and AI-assisted systems
-- 💬 Ask me about **SQL, Power BI / DAX, data modeling, and RFM segmentation**
+- 🏗️ Building hands-on with the **NiFi → Trino → StarRocks** data platform stack
+- 💬 Ask me about **data pipelines, SQL engines, data modeling, Power BI / DAX, and RFM segmentation**
+
+---
+
+## 🏗️ The Data Platform I Work Across
+
+Every tool I use has a place in one flow, from raw data to decisions:
+
+```mermaid
+flowchart LR
+    A["🗄️ Sources<br/>Apps · DBs · Files · APIs"] --> B["🔄 Ingestion<br/>Apache NiFi"]
+    B --> C["🧱 Storage & Modeling<br/>Data Lake / Warehouse<br/>Star & Snowflake Schema"]
+    C --> D["⚡ Query & Serving<br/>Trino · StarRocks"]
+    D --> E["📊 Analytics & BI<br/>Power BI · SQL · Python"]
+    D --> F["🤖 ML & AI<br/>scikit-learn · XGBoost · AI Agents"]
+```
+
+| Stage | What I do | Tools |
+|---|---|---|
+| **1. Ingestion** | Build data flows that collect, route, and transform data from many sources in near real time | Apache NiFi, Python |
+| **2. Storage & Modeling** | Design ETL/ELT pipelines and dimensional models that keep data clean, consistent, and query-friendly | SQL, Star / Snowflake Schema, Data Warehouse |
+| **3. Query & Serving** | Query across systems with a federated SQL engine; serve sub-second analytics with an MPP OLAP database | Trino, StarRocks |
+| **4. Analytics & BI** | Explore data, build semantic models and dashboards that answer business questions | Power BI (DAX, Power Query), Excel, Pandas |
+| **5. ML & AI** | Turn curated data into predictive models and safe, tool-gated AI assistants | scikit-learn, XGBoost, DeepAgent, Prompt Engineering |
 
 ---
 
@@ -33,28 +56,30 @@ I enjoy the whole journey of data: designing reliable **ETL/ELT pipelines**, mod
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Data Analysis & Machine Learning**
+**Data Engineering & Platform**
 
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+![Apache NiFi](https://img.shields.io/badge/Apache%20NiFi-728E9B?style=flat-square&logo=apache&logoColor=white)
+![Trino](https://img.shields.io/badge/Trino-DD00A1?style=flat-square&logo=trino&logoColor=white)
+![StarRocks](https://img.shields.io/badge/StarRocks-1C4ED8?style=flat-square)
+![ETL/ELT](https://img.shields.io/badge/ETL%20%2F%20ELT-Pipelines-555555?style=flat-square)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20%26%20Snowflake-555555?style=flat-square)
 
-**BI & Visualization**
+**Analytics & BI**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Advanced-F2C811?style=flat-square)
 ![Power Query](https://img.shields.io/badge/Power%20Query-M%20language-217346?style=flat-square)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-**Data Engineering**
+**Machine Learning & AI**
 
-`ETL / ELT Pipelines` · `Data Warehouse` · `Star & Snowflake Schema` · `Data Cleaning & Quality` · `Window Functions`
-
-**AI Architecture**
-
-`Tool-gated DeepAgent` · `Prompt Engineering`
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-Tool--gated%20DeepAgent-6E40C9?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-6E40C9?style=flat-square)
 
 ---
 
